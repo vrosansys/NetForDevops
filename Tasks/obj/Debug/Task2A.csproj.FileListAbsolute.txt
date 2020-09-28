@@ -1,0 +1,6 @@
+E:\Project\NetforDevOps\NetforDevOps\Task2A\obj\Debug\Task2A.csprojAssemblyReference.cache
+E:\Project\NetforDevOps\NetforDevOps\Task2A\obj\Debug\Task2A.csproj.CoreCompileInputs.cache
+E:\Project\NetforDevOps\NetforDevOps\Task2A\bin\Debug\Task2A.exe
+E:\Project\NetforDevOps\NetforDevOps\Task2A\bin\Debug\Task2A.pdb
+E:\Project\NetforDevOps\NetforDevOps\Task2A\obj\Debug\Task2A.exe
+E:\Project\NetforDevOps\NetforDevOps\Task2A\obj\Debug\Task2A.pdb
