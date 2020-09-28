@@ -34,5 +34,17 @@ namespace NetforDevOps
             NetforDevOps.Task2B.Second(new int[]{10, 3, 50, 11, 9});
             NetforDevOps.Task2B.SortArray(new int[]{10, 3, 50, 11, 9},"Descending");
         }
+
+        public static void Task2C()
+        { 
+            var timeNeedForTasks = 0;
+            Console.Write("Input number of tasks = ");
+            int.TryParse(Console.ReadLine(),out int tasks);
+            Console.Write("Estimate time = ");
+            int.TryParse(Console.ReadLine(),out int estimateTime);
+            var result = NetforDevOps.Task2C.Task(tasks, estimateTime, out timeNeedForTasks, NetforDevOps.Task2C.Level.Middle);
+            Console.WriteLine($"Employee copes with tasks - {result}");
+            Console.WriteLine($"Time(minutes) spent on tasks - {timeNeedForTasks}");
+        }
     }
 }
