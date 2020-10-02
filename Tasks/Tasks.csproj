@@ -43,6 +43,7 @@
         <Compile Include="Task2A.cs" />
         <Compile Include="Task2B.cs" />
         <Compile Include="Task2C.cs" />
+        <Compile Include="Task2E.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

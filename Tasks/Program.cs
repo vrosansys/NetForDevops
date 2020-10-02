@@ -46,5 +46,10 @@ namespace NetforDevOps
             Console.WriteLine($"Employee copes with tasks - {result}");
             Console.WriteLine($"Time(minutes) spent on tasks - {timeNeedForTasks}");
         }
+
+        public static void Task2E()
+        {
+            Console.WriteLine(NetforDevOps.Task2E.Method());
+        }
     }
 }
