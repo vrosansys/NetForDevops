@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
-namespace WindowsFormsExample
+namespace WindowsFormsExample.Model
 {
     public class Person
     {

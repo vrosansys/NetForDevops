@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsExample
+﻿namespace WindowsFormsExample.View
 {
     partial class PersonForm
     {

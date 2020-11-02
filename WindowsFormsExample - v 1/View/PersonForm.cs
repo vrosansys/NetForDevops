@@ -2,8 +2,9 @@
 using System.Deployment.Internal;
 using System.Drawing;
 using System.Windows.Forms;
+using WindowsFormsExample.Model;
 
-namespace WindowsFormsExample
+namespace WindowsFormsExample.View
 {
     public partial class PersonForm : Form
     {
