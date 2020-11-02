@@ -1,0 +1,12 @@
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Person.resources
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsApp1\obj\Debug\WindowsFormsExample.PersonForm.resources

@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks", "Tasks\Tasks.csproj", "{2867F854-AC48-4BA3-A313-5FFA538596F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{4B7EE784-408B-4BBB-BDE0-46385468123D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsExample", "WindowsFormsExample - v 1\WindowsFormsExample.csproj", "{04CE0F07-CA97-4DC6-B731-704FA9DE69A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{2867F854-AC48-4BA3-A313-5FFA538596F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2867F854-AC48-4BA3-A313-5FFA538596F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2867F854-AC48-4BA3-A313-5FFA538596F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B7EE784-408B-4BBB-BDE0-46385468123D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7EE784-408B-4BBB-BDE0-46385468123D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B7EE784-408B-4BBB-BDE0-46385468123D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7EE784-408B-4BBB-BDE0-46385468123D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04CE0F07-CA97-4DC6-B731-704FA9DE69A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CE0F07-CA97-4DC6-B731-704FA9DE69A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CE0F07-CA97-4DC6-B731-704FA9DE69A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CE0F07-CA97-4DC6-B731-704FA9DE69A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
