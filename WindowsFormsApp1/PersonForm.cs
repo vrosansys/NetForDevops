@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace WindowsFormsExample
@@ -21,6 +22,11 @@ namespace WindowsFormsExample
             {
                 imgPhoto.Image = Image.FromFile(dialog.FileName);
             }
+        }
+
+        private void PersonForm_Load(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

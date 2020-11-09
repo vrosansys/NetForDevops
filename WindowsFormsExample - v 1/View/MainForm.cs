@@ -15,6 +15,8 @@ namespace WindowsFormsExample.View
             btEdit.Click += OnBtEditClick;
             btRemove.Click += OnBtRemoveClick;
             
+            Storage.CreateRandomData();
+            
             _bs = new BindingSource();
             _bs.DataSource = Storage.People;
             table.DataSource = _bs;

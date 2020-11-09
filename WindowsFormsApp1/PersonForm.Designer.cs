@@ -37,19 +37,11 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "PersonForm";
             this.Text = "PersonForm";
+            this.Load += new System.EventHandler(this.PersonForm_Load);
             this.ResumeLayout(false);
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox imgPhoto;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tbName;
-        private System.Windows.Forms.NumericUpDown tbId;
-        private System.Windows.Forms.MonthCalendar calendar;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btEdit;
-        private System.Windows.Forms.Button btAdd;
+        
     }
 }

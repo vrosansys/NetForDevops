@@ -9,3 +9,4 @@ E:\Project\NetforDevOps\NetforDevOps\WindowsFormsExample - v 1\obj\Debug\Windows
 E:\Project\NetforDevOps\NetforDevOps\WindowsFormsExample - v 1\obj\Debug\WindowsFormsExample.pdb
 E:\Project\NetforDevOps\NetforDevOps\WindowsFormsExample - v 1\obj\Debug\WindowsFormsExample.View.PersonForm.resources
 E:\Project\NetforDevOps\NetforDevOps\WindowsFormsExample - v 1\obj\Debug\WindowsFormsExample.View.MainForm.resources
+E:\Project\NetforDevOps\NetforDevOps\WindowsFormsExample - v 1\obj\Debug\WindowsFormsExample.View.EditListForm.resources
