@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO.Pipes;
+using System.Linq;
 using System.Security.AccessControl;
 
 namespace NetforDevOps
@@ -147,8 +148,14 @@ namespace NetforDevOps
         
         public class Team : Worker, IWorker
         {
-            public Worker[] Employers;
+            private const int NumEmployers = 5;
 
+            public static Worker[] Employers;
+            
+            public int Size()
+            {
+                return Employers.Length;
+            }
             public override string Action()
             {
                 return "Manual Testing";
@@ -156,7 +163,15 @@ namespace NetforDevOps
 
             public new string DoWork()
             {
-                return $"ID: {Id} Name: {Name},{Action()}";
+                var rnd = new Random().Action();
+                for (int i = 0; i < NumEmployers; i++)
+                {
+                   // Employers[i].Id = ;
+                    Employers[i].Name = rnd.ToString();
+                    Console.WriteLine($"{Employers[i].Id} {Employers[i].Name}");
+                    
+                }
+                return "";
             }
 
         }
