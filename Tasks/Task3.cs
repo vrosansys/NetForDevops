@@ -105,60 +105,50 @@ namespace NetforDevOps
             }
         }
 
-        public class Random : Worker, IWorker
+        public static class SetRandom
         {
-
-            public static string SetRandom()
+            private static string[] Names;
+            static SetRandom()
             {
-                var FamalyName = new List<string>();
-                FamalyName.Add("Sidorov Vanya");
-                FamalyName.Add("Naumenko Petya");
-                FamalyName.Add("Sunstar Margolotta");
-                FamalyName.Add("Gerard Maaka");
-                FamalyName.Add("Saltzman Montoya");
-                
-                var randId = new System.Random();
-                
-                var dev = new Developer();
-                dev.Name = FamalyName[randId.Next(maxValue: 4)];
-                dev.Id = randId.Next(maxValue: 999);
-                dev.Unity= randId.Next(0, 2) > 0;
-                dev.JS= randId.Next(0, 2) > 0;
-                dev.SQL= randId.Next(0, 2) > 0;
-                
-                var qa = new QA();
-                qa.Name = FamalyName[randId.Next(maxValue: 4)];
-                qa.Id = randId.Next(maxValue: 999);
-                qa.Automation = randId.Next(0, 2) > 0;
-                
-                return $"{dev.DoWork()}\n{qa.DoWork()}";
+                Names = new string[] {
+                    "Ivan", "Oleg", "Andrey", "Sergey", "Aleksandr", "Vitaliy"
+                }; 
             }
-
-            public override string Action()
+            
+            public static Worker NextWorker(Random rnd)
             {
-                
-                return SetRandom();;
+                Worker result = null;
+                if (rnd.Next(0, 1000) >= 500)
+                {
+                    result = new Developer()
+                    {
+                        Name = Names[rnd.Next(0, Names.Length)],
+                        Id = rnd.Next(1, 90)
+                    };
+                }
+                else
+                {
+                    result = new QA()
+                    {
+                        Name = Names[rnd.Next(0, Names.Length)],
+                        Id = rnd.Next(1, 90)
+                    };
+                }
+                return result;
             }
-            public new string DoWork()
-            {
-                return $"Random of Developer and Qa is: \n{Action()}";
-            }
-
         }
         
-        public class Team : Worker, IWorker
+        public class Team: IWorker
         {
             private const int NumEmployers = 5;
 
             public static Worker[] Employers;
             
-            public int Size()
+            public int Size => Employers.Length;
+
+            public Team()
             {
-                return Employers.Length;
-            }
-            public override string Action()
-            {
-                return "Manual Testing";
+                Employers = new Worker[Team.NumEmployers];
             }
 
             public new string DoWork()
