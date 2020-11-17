@@ -153,13 +153,10 @@ namespace NetforDevOps
 
             public new string DoWork()
             {
-                var rnd = new Random().Action();
                 for (int i = 0; i < NumEmployers; i++)
                 {
-                   // Employers[i].Id = ;
-                    Employers[i].Name = rnd.ToString();
-                    Console.WriteLine($"{Employers[i].Id} {Employers[i].Name}");
-                    
+                    Employers[i] = SetRandom.NextWorker();
+                    return $"{Employers[0].Id}: {Employers[0].Name}";
                 }
                 return "";
             }

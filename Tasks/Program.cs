@@ -60,7 +60,7 @@ namespace NetforDevOps
             Console.WriteLine($"{result}");
             IWorker dev = new Task3.Developer{ Name = "Ivan", Id = 123, JS = true};
             Console.WriteLine(dev.DoWork());
-            IWorker rand = new Task3.Random();
+            IWorker rand = new Task3.Team();
             Console.WriteLine(rand.DoWork());
         }
 
