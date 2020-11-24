@@ -1,6 +1,0 @@
-E:\Project\NetforDevOps\NetforDevOps\Tasks\obj\Debug\Tasks.csprojAssemblyReference.cache
-E:\Project\NetforDevOps\NetforDevOps\Tasks\obj\Debug\Tasks.csproj.CoreCompileInputs.cache
-E:\Project\NetforDevOps\NetforDevOps\Tasks\bin\Debug\Tasks.exe
-E:\Project\NetforDevOps\NetforDevOps\Tasks\bin\Debug\Tasks.pdb
-E:\Project\NetforDevOps\NetforDevOps\Tasks\obj\Debug\Tasks.exe
-E:\Project\NetforDevOps\NetforDevOps\Tasks\obj\Debug\Tasks.pdb
