@@ -1,0 +1,6 @@
+C:\Project\NetForDevopsHome\task3\task3\bin\Debug\task3.exe
+C:\Project\NetForDevopsHome\task3\task3\bin\Debug\task3.pdb
+C:\Project\NetForDevopsHome\task3\task3\obj\Debug\task3.csprojAssemblyReference.cache
+C:\Project\NetForDevopsHome\task3\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+C:\Project\NetForDevopsHome\task3\task3\obj\Debug\task3.exe
+C:\Project\NetForDevopsHome\task3\task3\obj\Debug\task3.pdb
